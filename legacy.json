@@ -1,0 +1,109 @@
+{
+  "note": "Wix時代の展覧会記録。フォームから入る展覧会とあわせて「過去の展覧会」に表示されます。",
+  "exhibitions": [
+    {
+      "id": "w-2026-hagiya",
+      "title": "萩谷 巌展 ＋1920年代巴里写真",
+      "start": "2026-08-20",
+      "end": "2026-09-18",
+      "description": "",
+      "images": ["https://static.wixstatic.com/media/5a89e5_c7150d891a2c4bb5a5a2731a5340c900~mv2.png/v1/fit/w_1600,h_1600,al_c,q_85/5a89e5_c7150d891a2c4bb5a5a2731a5340c900~mv2.png"],
+      "captions": ["萩谷 巌「カフェードム（モンパルナス）」（1953年）"]
+    },
+    {
+      "id": "w-2024-edo-tokyo",
+      "title": "Spring in (Edo x Tokyo) 2024: From Hiroshige to Eizo Kinoshita",
+      "start": "2024-02-23",
+      "end": "2024-03-23",
+      "description": "江戸の町の暮らしを描いた浮世絵と、建築家・画家の木下栄三による作品で、江戸と東京をつなぐ春の展覧会。木下栄三は朝日新聞での連載（2010〜2015年）で、江戸城や神田の町を描いて知られます。江戸の暮らしの品々や人々を集めて描いた「づくし絵」のシリーズは、本展が初の展示となりました。",
+      "images": ["https://static.wixstatic.com/media/5a89e5_92a0408da40745ddae2abba93b9dadad~mv2.png/v1/fit/w_1600,h_1600,al_c,q_85/5a89e5_92a0408da40745ddae2abba93b9dadad~mv2.png"],
+      "captions": ["広重「名所江戸百景」真崎水神の森（1857年）"]
+    },
+    {
+      "id": "w-2022-1930",
+      "title": "1930年欧州の日本人画家たち",
+      "start": "2022-11-09",
+      "end": "2022-11-19",
+      "description": "1932年（昭和7年）に竣工した銀座・奥野ビルを会場に、当時欧州で活躍していた日本人画家の展覧会を開催しました。多くのギャラリーが集まる奥野ビルで、絵画と建築の交響をお楽しみいただきました。",
+      "images": ["https://static.wixstatic.com/media/5a89e5_b1f3aafbf1d7487c8bb84a4eb1ae1c8c~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/5a89e5_b1f3aafbf1d7487c8bb84a4eb1ae1c8c~mv2.jpg"],
+      "captions": [""]
+    },
+    {
+      "id": "w-2022-ecole-4",
+      "title": "エコール・ド・パリから100年展　第4期",
+      "start": "2022-03-02",
+      "end": "2022-03-19",
+      "description": "1920年代の日本人画家の滞欧作品を紹介するシリーズ。第4期では1930年代以降、ファシズムや共産主義などに揺れる時代の作品を中心に展示しました。",
+      "images": ["https://static.wixstatic.com/media/5a89e5_af8673fbbc3b41d8aab6a37d538564f4~mv2.png/v1/fit/w_1600,h_1600,al_c,q_85/5a89e5_af8673fbbc3b41d8aab6a37d538564f4~mv2.png"],
+      "captions": ["鶴田吾郎「北京風景」油彩10号・1937年"]
+    },
+    {
+      "id": "w-2022-ecole-3",
+      "title": "エコール・ド・パリから100年展　第3期",
+      "start": "2022-02-11",
+      "end": "2022-02-19",
+      "description": "2021年から続く「エコール・ド・パリから100年展」の第3期。新たに登場する作品に加え、第1期・第2期の作品もあわせて展示しました。",
+      "images": ["https://static.wixstatic.com/media/5a89e5_320584da9f8540deb856ba343b1ecb57~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/5a89e5_320584da9f8540deb856ba343b1ecb57~mv2.jpg"],
+      "captions": [""]
+    },
+    {
+      "id": "w-2020-miyasaka",
+      "title": "銀座「画廊宮坂」の35年　小品の魅力 3号 150点展",
+      "start": "2020-07-03",
+      "end": "2020-07-26",
+      "description": "銀座の「画廊宮坂」の35年をたどる、3号の小品150点による展覧会を開催しました。会場では図録も販売しました。",
+      "images": ["https://static.wixstatic.com/media/5a89e5_c66f9e06b875406988423fef6cd48533~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/5a89e5_c66f9e06b875406988423fef6cd48533~mv2.jpg"],
+      "captions": [""]
+    },
+    {
+      "id": "w-2020-uchida",
+      "title": "内田九一の江戸城新発見写真",
+      "start": "2020-03-15",
+      "end": "",
+      "period": "2020. 3 –",
+      "description": "幕末・明治の写真師、内田九一が撮影した江戸城の写真を新たに12枚発見し、当ギャラリーが蒐集してきた内田九一の江戸城写真とあわせて公開しました。会期中には、森重和雄氏による講演会「幕末明治の写真師列伝 裏話」を神保町のブックカフェ二十世紀で開催しました。",
+      "images": [
+        "https://static.wixstatic.com/media/5a89e5_c3a51f9198ea471798247746e4dbe734~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/5a89e5_c3a51f9198ea471798247746e4dbe734~mv2.jpg",
+        "https://static.wixstatic.com/media/5a89e5_712c17ba38584e9b84c4dd645efee22d~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/5a89e5_712c17ba38584e9b84c4dd645efee22d~mv2.jpg"
+      ],
+      "captions": ["", ""]
+    },
+    {
+      "id": "w-2019-terceros",
+      "title": "アンドレア・テルセロス「Impermanence / Mujō - 無常」展",
+      "start": "2019-09-20",
+      "end": "2019-09-29",
+      "description": "アンドレア・テルセロス氏は1994年ボリビア・サンタクルス州生まれ。ドイツのシュトゥットガルト大学建築都市計画学部を卒業し、東京の隈研吾建築都市設計事務所に勤めながら芸術活動を続けています。故郷ボリビアや学生時代を過ごしたヨーロッパ、そして日本での生活に着想を得た、色鮮やかな絵画展を開催しました。",
+      "images": [],
+      "captions": []
+    },
+    {
+      "id": "w-2019-tsaku",
+      "title": "T-SAKU展　〜中学教師から流木を使った創作家具へ〜",
+      "start": "2019-06-01",
+      "end": "",
+      "period": "2019. 6",
+      "description": "家具作家・高江友作による、流木を使った創作家具の展覧会を開催しました。",
+      "images": ["https://static.wixstatic.com/media/5a89e5_434375162f3b483f8b5f0a4b570c2f51~mv2_d_3264_2448_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/5a89e5_434375162f3b483f8b5f0a4b570c2f51~mv2_d_3264_2448_s_4_2.jpg"],
+      "captions": [""]
+    },
+    {
+      "id": "w-2019-crossart",
+      "title": "日仏交流160周年　現代美術 CROSS ART 展",
+      "start": "2019-02-21",
+      "end": "2019-02-27",
+      "description": "日仏交流160周年を記念した現代美術の展覧会を開催しました。",
+      "images": ["https://static.wixstatic.com/media/5a89e5_c515b747d53a474d8756291429086f2b~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/5a89e5_c515b747d53a474d8756291429086f2b~mv2.jpg"],
+      "captions": [""]
+    },
+    {
+      "id": "w-2019-mateki",
+      "title": "武沢昌子「W・A・モーツァルト 魔笛」展",
+      "start": "2019-01-31",
+      "end": "2019-02-10",
+      "description": "シェイクスピアギャラリー記念すべき第一回の企画展として、画家・武沢昌子による展覧会を開催しました。",
+      "images": ["https://static.wixstatic.com/media/5a89e5_1cfd71de93684684a97e1b8f921c0050~mv2_d_3264_2448_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/5a89e5_1cfd71de93684684a97e1b8f921c0050~mv2_d_3264_2448_s_4_2.jpg"],
+      "captions": [""]
+    }
+  ]
+}

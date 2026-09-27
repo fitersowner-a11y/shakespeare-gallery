@@ -1,35 +1,37 @@
 // サイト設定
 window.SG_CONFIG = {
-  // Googleフォーム連携（Apps Scriptのウェブアプリ）のURL。設置後に貼り替えます。
+  // サイトの公開URL（独自ドメインにしたらここを書き換えます。最後の / を忘れずに）
+  SITE_URL: 'https://fitersowner-a11y.github.io/shakespeare-gallery/',
+
+  // Googleフォーム連携（Apps Scriptのウェブアプリ）のURL
   API_URL: 'https://script.google.com/macros/s/AKfycbwnoJeDmK1X-JAPrI7TZnfGQgHiKFT8x3TbGHXHUA1Nmk_rVJhGARF8VbuipCLpQL-X/exec',
 
-  // フォームにまだ何も入っていないとき・読み込めないときに表示する内容
+  // フォームにまだ展覧会が入っていないときに表示する内容
   fallback: {
     exhibitions: [
       {
+        id: '20261002-kurome',
         title: '黒眼鏡の旦那と帰国後・戦後の友人たち',
         start: '2026-10-02',
         end: '2026-10-31',
-        hours: '',
-        closed: '',
-        description: '',
-        artists: '',
-        events: '',
-        caption: '',
         images: ['current.jpg'],
+        captions: [''],
       },
     ],
-    notices: [],
   },
 
-  // Wix時代の過去の展覧会（手入力の記録。period はそのまま表示されます）
-  archive: [
-    { period: '2026. 8. 20 – 9. 18', title: '萩谷 巌展 ＋1920年代巴里写真' },
-    { period: '2022. 11. 9 – 11. 19', title: '1930年欧州の日本人画家たち' },
-    { period: '2022. 2 – 3', title: 'エコール・ド・パリから100年展' },
-    { period: '2020. 7. 3 – 7. 26', title: '銀座「画廊宮坂」の35年　小品の魅力 3号 150点展' },
-    { period: '2020. 3 –', title: '内田九一の江戸城新発見写真' },
-    { period: '2019. 9. 20 – 9. 29', title: 'アンドレア・テルセロス「Impermanence / Mujō - 無常」展' },
-    { period: '2019. 6', title: 'T-SAKU展　〜中学教師から流木を使った創作家具へ〜' },
-  ],
+  // 「本の街」欄（フォームで最新号が送られるまでの表示）
+  book: {
+    issue: '神田・お茶の水・神保町の月刊フリーマガジン',
+    text: '1980年創刊、2025年に復刊した街の月刊誌「本の街」。古書店や喫茶店、街の人々の話題を毎月お届けしています。',
+    url: 'https://note.com/shin_honnomachi',
+    image: '',
+  },
+
+  // アクセス：最寄り駅（書き足すと表示されます）
+  // 例：{ line: 'JR中央線・総武線', station: '御茶ノ水駅', exit: '御茶ノ水橋口', walk: '徒歩5分' },
+  stations: [],
+
+  // 地図の検索語
+  mapQuery: '東京都千代田区神田駿河台1-5-6',
 };

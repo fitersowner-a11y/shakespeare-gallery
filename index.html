@@ -3,45 +3,57 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--META-->
 <title>シェイクスピアギャラリー｜Shakespeare Gallery 神田駿河台</title>
 <meta name="description" content="神田駿河台のアートギャラリー。パリ左岸の書店「シェイクスピア・アンド・カンパニー」に敬意を表し、文学・芸術を愛する人々が集う場所として2018年に開廊しました。">
-<meta property="og:title" content="シェイクスピアギャラリー｜Shakespeare Gallery">
-<meta property="og:description" content="文学、芸術、ささやかな暮らしに憧れる全ての人に。神田駿河台のアートギャラリー。">
-<meta property="og:image" content="images/current.jpg">
+<link rel="canonical" href="https://fitersowner-a11y.github.io/shakespeare-gallery/">
+<meta property="og:title" content="シェイクスピアギャラリー｜Shakespeare Gallery 神田駿河台">
+<meta property="og:description" content="神田駿河台のアートギャラリー。パリ左岸の書店「シェイクスピア・アンド・カンパニー」に敬意を表し、文学・芸術を愛する人々が集う場所として2018年に開廊しました。">
+<meta property="og:image" content="https://fitersowner-a11y.github.io/shakespeare-gallery/current.jpg">
+<meta property="og:url" content="https://fitersowner-a11y.github.io/shakespeare-gallery/">
 <meta property="og:type" content="website">
+<meta property="og:site_name" content="シェイクスピアギャラリー">
+<meta name="twitter:card" content="summary_large_image">
+<!--/META-->
+<meta name="theme-color" content="#740000">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Shippori+Mincho:wght@500;600&family=Zen+Kaku+Gothic+New:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Shippori+Mincho:wght@400;500;600&family=Zen+Kaku+Gothic+New:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ArtGallery","name":"シェイクスピアギャラリー","alternateName":"Shakespeare Gallery","url":"https://fitersowner-a11y.github.io/shakespeare-gallery/","telephone":"+81-90-8580-3160","email":"shakespearegallery@gmail.com","address":{"@type":"PostalAddress","postalCode":"101-0062","addressRegion":"東京都","addressLocality":"千代田区","streetAddress":"神田駿河台1-5-6 コトー駿河台 B1F","addressCountry":"JP"},"sameAs":["https://www.instagram.com/shakespeare.gallery/","https://www.facebook.com/ShakespeareGallery","https://twitter.com/Sgallery_Ocha"]}
+</script>
 </head>
-<body>
+<body data-page="home">
 <a class="skip" href="#main">本文へ</a>
-
 <header class="site-header">
   <div class="wrap header-inner">
-    <a class="brand" href="#top" aria-label="シェイクスピアギャラリー トップへ">
-      <span class="brand-en">SHAKESPEARE GALLERY</span>
-      <span class="brand-ja">シェイクスピアギャラリー　神田駿河台</span>
+    <a class="brand" href="index.html" aria-label="シェイクスピアギャラリー トップへ">
+      <img class="brand-mark" src="mark.png" alt="" width="44" height="44">
+      <span class="brand-text"><span class="brand-en">SHAKESPEARE GALLERY</span><span class="brand-ja">シェイクスピアギャラリー　神田駿河台</span></span>
     </a>
     <button class="menu-btn" type="button" aria-expanded="false" aria-controls="gnav" aria-label="メニューを開く">
       <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><line x1="3" y1="7" x2="21" y2="7"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="17" x2="21" y2="17"/></svg>
     </button>
     <nav id="gnav" class="gnav" aria-label="メインメニュー">
       <a href="#exhibition">展覧会</a>
+      <a href="archive.html">過去の展覧会</a>
       <a href="#about">ギャラリーについて</a>
-      <a href="#archive">過去の展覧会</a>
-      <a href="#rental">展覧会をご希望の方へ</a>
+      <a href="town.html" data-needs="town" hidden>神保町案内</a>
+      <a href="#rental">貸しギャラリー</a>
       <a href="#access">アクセス</a>
       <a class="btn btn-solid" href="https://lin.ee/zE9Uekc">来場予約</a>
     </nav>
   </div>
 </header>
-
+<div id="notices" class="notices" hidden></div>
 <main id="main">
-  <div id="notices" class="notices" hidden></div>
-
-  <section id="exhibition" class="hero wrap">
-    <div class="hero-text">
+  <section id="exhibition" class="hero-band">
+  <img class="hero-emblem" src="mark-line.png" alt="" aria-hidden="true">
+  <div class="hero wrap">
+    <div class="hero-text reveal">
       <p class="eyebrow"><span class="rule"></span><span id="ex-label">EXHIBITION</span></p>
       <h1 id="ex-title" class="hero-title">&nbsp;</h1>
       <p id="ex-dates" class="hero-dates"></p>
@@ -52,23 +64,29 @@
       </div>
     </div>
     <figure id="ex-figure" class="hero-figure" hidden>
-      <div class="mat"><img id="ex-image" alt=""></div>
+      <button type="button" class="mat zoomable" id="ex-zoom" aria-label="作品画像を拡大"><img id="ex-image" alt=""></button>
       <figcaption id="ex-caption"></figcaption>
     </figure>
+  </div>
   </section>
 
   <section id="statement" class="statement" hidden>
     <div class="wrap grid12">
-      <div class="col-4">
+      <div class="col-4 reveal">
         <p class="eyebrow light">ABOUT THE EXHIBITION</p>
         <h2 class="h2">展覧会について</h2>
       </div>
-      <div class="col-7 statement-body">
+      <div class="col-8 statement-body reveal">
         <p id="st-description" class="prewrap"></p>
         <div id="st-artists-wrap" class="sub" hidden><span class="sub-label">出品作家</span><p id="st-artists" class="prewrap"></p></div>
         <div id="st-events-wrap" class="sub" hidden><span class="sub-label">関連イベント</span><p id="st-events" class="prewrap"></p></div>
       </div>
     </div>
+  </section>
+
+  <section id="works" class="works wrap" hidden>
+    <p class="eyebrow reveal"><span class="rule"></span>WORKS</p>
+    <div id="works-grid" class="works-grid"></div>
   </section>
 
   <section id="upcoming" class="upcoming wrap" hidden>
@@ -77,32 +95,56 @@
   </section>
 
   <section id="about" class="about wrap grid12">
-    <div class="col-5">
+    <div class="col-5 about-mark reveal">
+      <img src="mark.png" alt="シェイクスピアギャラリーのロゴ" width="400" height="400">
+    </div>
+    <div class="col-6 about-body reveal">
       <p class="eyebrow">CONCEPT</p>
       <p class="catch">文学、芸術、<br>ささやかな暮らしに<br>憧れる全ての人に</p>
-    </div>
-    <div class="col-6 about-body">
       <p>1920年代、パリ左岸に誕生した書店「シェイクスピア・アンド・カンパニー」。シルヴィア・ビーチが営んだこの店には、ヘミングウェイをはじめとする作家たちが集い、ジェイムズ・ジョイスの前衛的な作品を世に送り出しました。</p>
       <p>その名に敬意を表し、2018年11月、「東京のカルチェ・ラタン」と呼ばれる神田駿河台に開廊。文学や芸術、幅広い学問を愛する人々が集う場所をめざしています。</p>
     </div>
   </section>
 
   <section id="archive" class="archive">
-    <div class="wrap grid12">
-      <div class="col-4">
-        <p class="eyebrow">ARCHIVE</p>
-        <h2 class="h2">過去の展覧会</h2>
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div><p class="eyebrow">ARCHIVE</p><h2 class="h2">過去の展覧会</h2></div>
+        <a class="text-link" href="archive.html">すべて見る <span aria-hidden="true">→</span></a>
       </div>
-      <ul id="archive-list" class="col-8 line-list"></ul>
+      <div id="archive-grid" class="card-grid"></div>
+    </div>
+  </section>
+
+  <section id="book" class="book wrap grid12">
+    <div class="col-5 book-cover reveal" id="book-cover-wrap">
+      <div class="book-spine" id="book-cover"><span class="book-spine-title">本の街</span><span class="book-spine-sub">HON NO MACHI</span></div>
+    </div>
+    <div class="col-7 book-body reveal">
+      <p class="eyebrow">HON NO MACHI</p>
+      <h2 class="h2">月刊「本の街」</h2>
+      <p class="book-issue" id="book-issue"></p>
+      <p class="prewrap" id="book-text"></p>
+      <a class="btn btn-line" id="book-link" href="#" hidden>読む</a>
+    </div>
+  </section>
+
+  <section id="town" class="town-teaser" hidden>
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div><p class="eyebrow">JIMBOCHO GUIDE</p><h2 class="h2">ギャラリーの近くで</h2></div>
+        <a class="text-link" href="town.html">神保町案内へ <span aria-hidden="true">→</span></a>
+      </div>
+      <div id="town-grid" class="card-grid"></div>
     </div>
   </section>
 
   <section id="rental" class="rental wrap grid12">
-    <div class="col-4">
+    <div class="col-4 reveal">
       <p class="eyebrow">RENTAL</p>
       <h2 class="h2">展覧会をご希望の方へ</h2>
     </div>
-    <div class="col-8 cards">
+    <div class="col-8 cards reveal">
       <div class="card">
         <h3 class="h3">期間貸し</h3>
         <p class="price">14日間 45,000円〜</p>
@@ -113,24 +155,24 @@
         <p class="price">作品売上の35%</p>
         <p class="muted">スペースのみのご提供です。</p>
       </div>
-      <p class="cards-note">法人・個人を問わず、個展のご相談を承ります。ご利用料金は展覧会ごとに個別にご相談させていただきます。<br><a href="mailto:shakespearegallery@gmail.com?subject=%E5%B1%95%E8%A6%A7%E4%BC%9A%E3%81%AE%E3%81%94%E7%9B%B8%E8%AB%87">メールでのご相談はこちら</a></p>
+      <p class="cards-note">法人・個人を問わず、個展のご相談を承ります。ご利用料金は展覧会ごとに個別にご相談させていただきます。これまでの展覧会は<a href="archive.html">アーカイブ</a>でご覧いただけます。<br><a href="mailto:shakespearegallery@gmail.com?subject=%E5%B1%95%E8%A6%A7%E4%BC%9A%E3%81%AE%E3%81%94%E7%9B%B8%E8%AB%87">メールでのご相談はこちら</a></p>
     </div>
   </section>
 
   <section id="access" class="access">
     <div class="wrap grid12">
-      <div class="col-4">
+      <div class="col-4 reveal">
         <p class="eyebrow">ACCESS</p>
         <h2 class="h2">アクセス・ご予約</h2>
       </div>
-      <div class="col-8 access-body">
+      <div class="col-8 access-body reveal">
         <div>
           <p class="address">〒101-0062<br>東京都千代田区神田駿河台1-5-6<br>コトー駿河台 B1F</p>
+          <ul id="stations" class="stations" hidden></ul>
           <dl class="info-list compact">
             <div><dt>TEL</dt><dd><a href="tel:09085803160">090-8580-3160</a></dd></div>
             <div><dt>MAIL</dt><dd><a href="mailto:shakespearegallery@gmail.com">shakespearegallery@gmail.com</a></dd></div>
           </dl>
-          <p><a class="text-link" href="https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8C%BA%E7%A5%9E%E7%94%B0%E9%A7%BF%E6%B2%B3%E5%8F%B01-5-6">Googleマップで見る →</a></p>
         </div>
         <div class="card">
           <h3 class="h3">ご来廊は予約制です</h3>
@@ -138,14 +180,18 @@
           <a class="btn btn-solid" href="https://lin.ee/zE9Uekc">公式LINEを友だち追加</a>
         </div>
       </div>
+      <div class="map reveal">
+        <iframe id="map" title="シェイクスピアギャラリーの地図" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <a class="text-link" id="map-link" href="#">Googleマップで開く <span aria-hidden="true">→</span></a>
+      </div>
     </div>
   </section>
 </main>
-
 <footer class="site-footer">
   <div class="wrap footer-inner">
-    <div>
-      <p class="brand-en light">SHAKESPEARE GALLERY</p>
+    <div class="footer-brand">
+      <img class="footer-wordmark" src="wordmark-white.png" alt="Shakespeare Gallery — Arts, Antiques, Books &amp; Furniture" width="460" height="95">
+      <p class="small">〒101-0062 東京都千代田区神田駿河台1-5-6 コトー駿河台 B1F</p>
       <p class="small">©<span id="year">2026</span> Shakespeare Gallery</p>
     </div>
     <nav aria-label="SNS" class="sns">
@@ -156,7 +202,6 @@
     </nav>
   </div>
 </footer>
-
 <script src="config.js"></script>
 <script src="app.js"></script>
 </body>
