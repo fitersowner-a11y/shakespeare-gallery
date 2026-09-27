@@ -16,7 +16,7 @@ window.SG_CONFIG = {
         artists: '',
         events: '',
         caption: '',
-        images: ['images/current.jpg'],
+        images: ['current.jpg'],
       },
     ],
     notices: [],
